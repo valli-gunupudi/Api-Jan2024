@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-17T18:11:40 PDT" name="Default suite" finished-at="2024-03-17T18:12:36 PDT" duration-ms="56069">
+    <groups>
+    </groups>
+    <test started-at="2024-03-17T18:11:40 PDT" name="Default test" finished-at="2024-03-17T18:12:36 PDT" duration-ms="56069">
+      <class name="org.tekarchapi.restAssured.pojo.CRUDUsingPOJO">
+        <test-method is-config="true" signature="init()[pri:0, instance:org.tekarchapi.restAssured.pojo.CRUDUsingPOJO@59662a0b]" started-at="2024-03-17T18:11:40 PDT" name="init" finished-at="2024-03-17T18:11:41 PDT" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="logintoTekarchRequest()[pri:0, instance:org.tekarchapi.restAssured.pojo.CRUDUsingPOJO@59662a0b]" started-at="2024-03-17T18:11:41 PDT" name="logintoTekarchRequest" finished-at="2024-03-17T18:11:45 PDT" duration-ms="3912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoTekarchRequest -->
+        <test-method signature="getUserData()[pri:0, instance:org.tekarchapi.restAssured.pojo.CRUDUsingPOJO@59662a0b]" started-at="2024-03-17T18:11:45 PDT" name="getUserData" finished-at="2024-03-17T18:11:52 PDT" depends-on-methods="org.tekarchapi.restAssured.pojo.CRUDUsingPOJO.logintoTekarchRequest" duration-ms="7763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserData -->
+        <test-method signature="addUserData()[pri:0, instance:org.tekarchapi.restAssured.pojo.CRUDUsingPOJO@59662a0b]" started-at="2024-03-17T18:11:52 PDT" name="addUserData" finished-at="2024-03-17T18:11:55 PDT" depends-on-methods="org.tekarchapi.restAssured.pojo.CRUDUsingPOJO.getUserData" duration-ms="2539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserData -->
+        <test-method signature="getUserDataAfterAdd()[pri:0, instance:org.tekarchapi.restAssured.pojo.CRUDUsingPOJO@59662a0b]" started-at="2024-03-17T18:11:55 PDT" name="getUserDataAfterAdd" finished-at="2024-03-17T18:12:09 PDT" depends-on-methods="org.tekarchapi.restAssured.pojo.CRUDUsingPOJO.addUserData" duration-ms="14013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDataAfterAdd -->
+        <test-method signature="updateUserData()[pri:0, instance:org.tekarchapi.restAssured.pojo.CRUDUsingPOJO@59662a0b]" started-at="2024-03-17T18:12:09 PDT" name="updateUserData" finished-at="2024-03-17T18:12:15 PDT" depends-on-methods="org.tekarchapi.restAssured.pojo.CRUDUsingPOJO.getUserDataAfterAdd" duration-ms="5995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserData -->
+        <test-method signature="getUserDataAfterUpd()[pri:0, instance:org.tekarchapi.restAssured.pojo.CRUDUsingPOJO@59662a0b]" started-at="2024-03-17T18:12:15 PDT" name="getUserDataAfterUpd" finished-at="2024-03-17T18:12:25 PDT" depends-on-methods="org.tekarchapi.restAssured.pojo.CRUDUsingPOJO.updateUserData" duration-ms="9507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDataAfterUpd -->
+        <test-method signature="deleteUserData()[pri:0, instance:org.tekarchapi.restAssured.pojo.CRUDUsingPOJO@59662a0b]" started-at="2024-03-17T18:12:25 PDT" name="deleteUserData" finished-at="2024-03-17T18:12:27 PDT" depends-on-methods="org.tekarchapi.restAssured.pojo.CRUDUsingPOJO.getUserDataAfterUpd" duration-ms="2376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserData -->
+        <test-method signature="getUserDataAfterDel()[pri:0, instance:org.tekarchapi.restAssured.pojo.CRUDUsingPOJO@59662a0b]" started-at="2024-03-17T18:12:27 PDT" name="getUserDataAfterDel" finished-at="2024-03-17T18:12:36 PDT" depends-on-methods="org.tekarchapi.restAssured.pojo.CRUDUsingPOJO.deleteUserData" duration-ms="9487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDataAfterDel -->
+      </class> <!-- org.tekarchapi.restAssured.pojo.CRUDUsingPOJO -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
